@@ -1,12 +1,19 @@
 .ContactLinks {
-    font-size: 80%;
-    font-style: normal;
+    font-size: 100%;
+    font-style: ;
     font-display: block;
     font-family: Arial;
 }
+h1 {
+    text-align: center;
+}
 p {
+    text-align: center;
     font-size: 110%;
     font-style: normal;
     font-display: block;
+}
+.Body {
+    background-color: #99FFCC;
 }
 /* this a comment*/
