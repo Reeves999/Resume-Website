@@ -4,8 +4,9 @@
     font-display: block;
     font-family: Arial;
 }
-h1 {
+header{
     text-align: center;
+    font-weight: bold;
 }
 p {
     text-align: center;
@@ -14,7 +15,14 @@ p {
     font-display: block;
     white-space:normal;
 }
-.Body {
+.Main {
     background-color: #99FFCC;
+}
+p.Footer{
+    text-align: center;
+    font-size: 70%;
+    font-style: normal;
+    font-display: block;
+    white-space:normal;
 }
 /* this a comment*/
