@@ -1,57 +1,66 @@
-.ContactLinks {
-    font-size: 100%;
-    font-style: ;
-    font-display: block;
-    font-family: Courier New, Arial;
+.Main {
+    background-color: #6497b1;
 }
 header {
     text-align: center;
     font-weight: bold;
-    font-family: Courier New, Arial;
+    font-family: Helvetica, Courier New, Arial;
 }
 h2 {
     ;
     text-align: center;
     font-weight: bold;
-    font-family: Courier New, Arial;
+    font-family: Helvetica, Courier New, Arial;
 }
-p {
-    text-indent: 10%;
+p.Summary_Paragraph {
+    text-indent: 5%;
     text-align: center;
     font-size: 120%;
     text-rendering: optimizeLegibility;
-    text-space: 10%;
-    font-family: cursive, Arial;
+    word-spacing: 4px;
+    font-family: Helvetica, Courier New, Arial;
     font-style: normal;
     font-display: block;
     white-space:normal;
 }
-.Main {
-    background-color: #6497b1;
+ul.Skills {
+    text-align: center;
+    font-family: Helvetica, Courier New, Arial;
+    font-size: 120%;
+    word-spacing: 4px;
+    text-rendering: optimizeLegibility;
 }
 p.Footer{
     text-align: center;
     font-size: 70%;
-    font-family: Arial;
+    font-family: Helvetica, Courier New, Arial;
     font-style: normal;
     font-display: block;
     white-space:normal;
 }
 .Header_Contacts{
     font-size: 100%;
-    font-family: Courier;
+    font-family: Helvetica, Courier New, Arial;
     font-style: normal;
     font-display: block;
     white-space:normal;
+}
+.ContactLinks {
+    font-size: 100%;
+    font-style: ;
+    font-display: block;
+    font-family: Helvetica, Courier New, Arial;
 }
 input {
     color: white;
     background-color: #b3cde0;
     border: 1;
+    font-family: Helvetica, Courier New, Arial;
 }
 textarea.Message_box {
     color: white;
     background-color: #b3cde0;
     border: 1;
+    font-family: Helvetica, Courier New, Arial;
 }
 /* this a comment*/
