@@ -1,16 +1,23 @@
-.Main {
+body.Main {
     background-color: #6497b1;
+    margin: auto;
 }
 header {
+    /* I've added background color in background position.I'm still Trying to center the color in the center. */
+    background-color: #6492b9;
+    background-position: center;
     text-align: center;
     font-weight: bold;
     font-family: Helvetica, Courier New, Arial;
 }
 h2 {
-    ;
     text-align: center;
     font-weight: bold;
     font-family: Helvetica, Courier New, Arial;
+}
+/* Add another selector for summary. I noticed the size of the paragraph doesn't look proper on the Kindle.  */
+p.Summary_Paragraph, ul.Skills {
+
 }
 p.Summary_Paragraph {
     text-indent: 5%;
@@ -52,17 +59,28 @@ p.Footer{
     font-display: block;
     font-family: Helvetica, Courier New, Arial;
 }
-input {
+/* I have add a new CSS new with Selectors Involved. I have a selector for message and contacts. I add Margins With a .5%. There's another class I created for this submit button.The header for the message. Now there is a class for it.I also did change the title.*/
+input, textarea.Message_box, .ContactLinks, .message_title {
+    margin: .5%;
+    margin-left: 5%;
+}
+.message_title {
+    font-family: Helvetica, Courier New, Arial;
+}
+input, textarea.Message_box {
     color: white;
     background-color: #b3cde0;
     border-style:inset;
     padding: 10px;
     font-family: Helvetica, Courier New, Arial;
 }
+input {
+
+}
 textarea.Message_box {
-    color: white;
-    background-color: #b3cde0;
-    border: 1;
-    font-family: Helvetica, Courier New, Arial;
+
+}
+.Submit {
+    margin-left: 3%;
 }
 /* this a comment*/
