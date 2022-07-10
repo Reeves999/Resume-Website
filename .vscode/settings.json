@@ -1,0 +1,18 @@
+{
+  "editor.fontSize": 12,
+  "editor.wordWrap": "bounded",
+  "editor.codeLensFontSize": 12,
+  "editor.columnSelection": true,
+  "editor.comments.ignoreEmptyLines": false,
+  "editor.defaultFormatter": "VisualStudioExptTeam.vscodeintellicode",
+  "editor.definitionLinkOpensInPeek": true,
+  "editor.foldingImportsByDefault": true,
+  "editor.gotoLocation.alternativeDefinitionCommand": "editor.action.revealDefinition",
+  "editor.gotoLocation.alternativeImplementationCommand": "editor.action.peekImplementation",
+  "editor.gotoLocation.alternativeReferenceCommand": "editor.action.peekImplementation",
+  "editor.gotoLocation.alternativeDeclarationCommand": "editor.action.revealDefinitionAside",
+  "editor.guides.bracketPairs": "active",
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.inlayHints.fontSize": 1,
+  "editor.inlayHints.padding": true
+}

@@ -1,0 +1,24 @@
+{
+  "folders": [
+    {
+      "path": "..\\Apt-Autodownload-Script"
+    },
+    {
+      "path": "."
+    },
+    {
+      "path": "..\\Auxilium-Artificial-Intelligent"
+    },
+    {
+      "path": "..\\Rota-Operating-System"
+    }
+  ],
+  "settings": {
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.enableBell": true,
+    "terminal.integrated.shellIntegration.enabled": true,
+    "terminal.integrated.tabs.description": "${task}${separator}${local}${separator}$(wortspaceFolder)${cwdFolder}",
+    "remote.downloadExtensionsLocally": true,
+    "files.autoSave": "off"
+  }
+}
