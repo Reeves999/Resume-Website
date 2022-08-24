@@ -14,5 +14,8 @@
   "editor.guides.bracketPairs": "active",
   "editor.hideCursorInOverviewRuler": true,
   "editor.inlayHints.fontSize": 1,
-  "editor.inlayHints.padding": true
+  "editor.inlayHints.padding": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "svipas.prettier-plus"
+  }
 }

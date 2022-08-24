@@ -1,7 +1,5 @@
-import './style.css';
-
+import "Style.css";
 import * as THREE from 'three';
-import { Camera, MeshBasicMaterial, PointLight, TorusGeometry } from 'three';
 
 const scene = new THREE.Scene();
 

@@ -1,5 +1,10 @@
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
 body.Main {
-    background-color: #6497b1;
+    background-color:#96c6e9;
     margin: auto;
 }
 header {
@@ -12,6 +17,9 @@ h2 {
     text-align: center;
     font-weight: bold;
     font-family: Helvetica, Courier New, Arial;
+}
+.Whole_Summary {
+    padding: 3%;
 }
 h2.Summary {
     text-decoration: underline;
@@ -40,6 +48,7 @@ ul.Skills {
     word-spacing: 4px;
     text-rendering: optimizeLegibility;
 }
+
 p.Footer{
     text-align: center;
     font-size: 70%;
@@ -57,7 +66,6 @@ p.Footer{
 }
 .ContactLinks {
     font-size: 100%;
-    font-style: ;
     font-display: block;
     font-family: Helvetica, Courier New, Arial;
 }
@@ -71,7 +79,7 @@ input, textarea.Message_box, .ContactLinks, .message_title {
 }
 input, textarea.Message_box {
     color: white;
-    background-color: #b3cde0;
+    background-color: #96c6e9;
     border-style:inset;
     padding: 10px;
     font-family: Helvetica, Courier New, Arial;
