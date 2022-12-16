@@ -39,5 +39,16 @@
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
-  "livePreview.defaultPreviewPath": "c:\\Users\\Daniel A Reeves\\Documents\\GitHub\\Resume\\index.html"
+  "livePreview.defaultPreviewPath": "c:\\Users\\Daniel A Reeves\\Documents\\GitHub\\Resume\\index.html",
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "cSpell.customDictionaries": {
+    "custom-dictionary-workspace": {
+      "name": "custom-dictionary-workspace",
+      "path": "${workspaceFolder:Resume}/.cspell/custom-dictionary-workspace.txt",
+      "addWords": true,
+      "scope": "workspace"
+    }
+  }
 }
