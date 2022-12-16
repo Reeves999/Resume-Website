@@ -3,94 +3,158 @@ canvas {
     top: 0;
     left: 0;
 }
+
 body.Main {
-    background-color:#e2e2e2;
+    display: grid;
     margin: auto;
+    background-color: #e0e0e0;
 }
+
 header {
     background-position: center;
     text-align: center;
     font-weight: bold;
-    font-family: Helvetica, Courier New, Arial;
+    font-family: 'Times New Roman', Times, serif;
+
 }
+
 h2 {
     text-align: center;
     font-weight: bold;
-    font-family: Helvetica, Courier New, Arial;
+    font-family: 'Times New Roman', Times, serif;
 }
+
+nav.main_menu_tags > ul {
+    margin-right: 10%;
+    margin-left: 10%;
+    align-self: auto;
+    padding: 1px;
+    text-align: center;
+    border-radius: 5%;
+
+
+
+}
+
+ul.Navigation {
+    display: grid;
+    grid-template-areas:
+    'home me projects';
+    font-size: 20px;
+    word-wrap: normal;
+    
+    grid-gap: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+li.home {
+    border: 1px solid #ffffff;
+    border-radius: 7.7%;
+}
+
+li.projects {
+    border-radius: 7.7%;
+    border: 1px solid #ffffff;
+
+}
+
+li.me {
+    border-radius: 7.7%;
+    border: 1px solid #ffffff;
+
+}
+
 .Whole_Summary {
+    grid-auto-rows: minmax(100px, auto);
     padding: 3%;
 }
+
 h2.Summary {
     text-decoration: underline;
     text-decoration-style: dashed;
     text-underline-position: under;
 }
-p.Summary_Paragraph, ul.Skills {
+
+p.Summary_Paragraph,
+ul.Skills {
     margin: auto;
     padding-left: 8%;
     padding-right: 8%;
 }
+
 p.Summary_Paragraph {
     text-indent: 5%;
     text-align: center;
     font-size: 120%;
     text-rendering: geometricPrecision;
     word-spacing: 4px;
-    font-family: Helvetica, Courier New, Arial;
+    font-family: 'Times New Roman', Times, serif;
     font-display: block;
 }
+
 ul.Skills {
     text-align: left;
     padding-left: 100px;
-    font-family: Helvetica, Courier New, Arial;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 120%;
     word-spacing: 4px;
     text-rendering: optimizeLegibility;
 }
 
-p.Footer{
+p.footer_summary {
     text-align: center;
     font-size: 70%;
-    font-family: Helvetica, Courier New, Arial;
+    font-family: 'Times New Roman', Times, serif;
     font-style: normal;
-    font-display: block;
-    white-space:normal;
+    white-space: normal;
+    padding: 25px;
 }
-.Header_Contacts{
+
+.Header_Contacts {
     font-size: 100%;
-    font-family: Helvetica, Courier New, Arial;
+    font-family: 'Times New Roman', Times, serif;
     font-style: normal;
     font-display: block;
-    white-space:normal;
+    white-space: normal;
 }
+
 .ContactLinks {
     font-size: 100%;
     font-display: block;
-    font-family: Helvetica, Courier New, Arial;
+    font-family: 'Times New Roman', Times, serif;
 }
-input, textarea.Message_box, .ContactLinks, .message_title {
+
+input,
+textarea.Message_box,
+.ContactLinks,
+.message_title {
     margin: .5%;
     margin-left: 5%;
 
 }
+
 .message_title {
-    font-family: Helvetica, Courier New, Arial;
+    font-family: 'Times New Roman', Times, serif;
 }
-input, textarea.Message_box {
+
+input,
+textarea.Message_box {
     color: white;
     background-color: #96c6e9;
-    border-style:inset;
+    border-style: inset;
     padding: 10px;
-    font-family: Helvetica, Courier New, Arial;
+    font-family: 'Times New Roman', Times, serif;
 }
-input {
 
-}
-textarea.Message_box {
+input {}
 
-}
+textarea.Message_box {}
+
 .Submit {
     margin-left: 3%;
 }
+
 /* this a comment*/
