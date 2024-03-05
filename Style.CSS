@@ -42,7 +42,7 @@ ul.Navigation {
     'home me projects';
     font-size: 20px;
     word-wrap: normal;
-    
+
     grid-gap: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -73,9 +73,7 @@ li.me {
 }
 
 h2.Summary {
-    text-decoration: underline;
-    text-decoration-style: dashed;
-    text-underline-position: under;
+
 }
 
 p.Summary_Paragraph,
@@ -104,6 +102,40 @@ ul.Skills {
     text-rendering: optimizeLegibility;
 }
 
+main.project_boxes {
+    display: grid;
+    grid-template-columns:
+    "project_title"
+    "project_date"
+    "projects_summary"
+    "project_picture";
+
+}
+div.project_block {
+    border: 1px solid  black;
+    margin: 5px;
+    /* padding-left: 10px; */
+    padding-inline-start: 7mm;
+    padding-inline-end: 7mm;
+    text-rendering: optimizeLegibility;
+
+}
+h3.project_title {
+    margin: 10px;
+    padding: 10px;
+}
+h4.project_date {
+    text-indent: 2ex;
+}
+p.project_paragraph {
+    text-indent: 3ex;
+    text-anchor: start;
+    word-wrap: break-word;
+}
+
+picture.project_picture {
+
+}
 p.footer_summary {
     text-align: center;
     font-size: 70%;
